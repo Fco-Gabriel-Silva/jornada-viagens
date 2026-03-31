@@ -1,3 +1,8 @@
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -12,10 +17,16 @@
   width: 312px;
   height: 220px;
   padding: 24px 16px;
-  border-radius: 8px;
+  border-radius: 16px;
+  text-align: center;
   background-color: var(--background-secondary-color);
   justify-content: center;
   align-items: center;
+}
+
+.categories-cards .card img {
+  width: 80px;
+  height: 80px;
 }
 
 .categories-cards a {
@@ -30,6 +41,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .categories .section-title {
+    width: 100%;
+  }
+
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,14 +54,26 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .categories-cards {
+    width: 1024px;
+  }
+
+  .categories-cards .card {
+    width: 420px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .categories-cards {
     flex-wrap: nowrap;
     width: 1250px;
+    margin-top: 64px;
   }
 
   .categories-cards .card {
     width: 280px;
+    height: 220px;
   }
 
   .categories-cards .card:hover {
