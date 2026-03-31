@@ -34,5 +34,22 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 768px;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .categories-cards {
+    flex-wrap: nowrap;
+    width: 1250px;
+  }
+
+  .categories-cards .card {
+    width: 280px;
+  }
+
+  .categories-cards .card:hover {
+    background-color: #d9d9d9;
   }
 }
