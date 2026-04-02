@@ -1,17 +1,9 @@
-.categories {
-  margin-bottom: 88px;
-}
-
-.categories .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  box-sizing: border-box;
 }
 
 .categories-cards .card {
@@ -45,24 +37,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .categories .section-title {
-    width: 100%;
-  }
-
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 768px;
-    margin-inline: auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .categories-cards {
-    width: 1024px;
-  }
-
   .categories-cards .card {
     width: 420px;
   }
@@ -71,8 +53,6 @@
 @media screen and (min-width: 1440px) {
   .categories-cards {
     flex-wrap: nowrap;
-    width: 1250px;
-    margin-top: 64px;
   }
 
   .categories-cards .card {
