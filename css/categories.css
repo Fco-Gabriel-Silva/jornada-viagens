@@ -18,6 +18,8 @@
   background-color: var(--background-secondary-color);
   justify-content: center;
   align-items: center;
+  color: var(--text-primary-color);
+  text-decoration: none;
 }
 
 .categories-cards .card img {
@@ -25,14 +27,7 @@
   height: 80px;
 }
 
-.categories-cards a {
-  text-decoration: none;
-}
-
 .categories-cards h3 {
-  font-size: 28px;
-  color: var(--text-primary-color);
-  font-weight: var(--title-weight);
   margin: 24px 0 0;
 }
 
