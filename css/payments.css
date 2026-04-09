@@ -7,11 +7,6 @@
   width: 100%;
 }
 
-.payments .content-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .payments .content-container .image-content .image.colspan-2 {
   grid-column: span 2;
 }
@@ -50,20 +45,16 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
-    flex-direction: row;
+    display: flex;
     justify-content: space-between;
-  }
-
-  .payments .content-container .image-content {
-    width: 790px;
-    margin-top: 0;
   }
 
   .payments .content-container .text-content {
     width: 360px;
   }
 
-  .payments .content-container .text-content h3 {
+  .payments .content-container .image-content {
+    width: 790px;
     margin-top: 0;
   }
 }
