@@ -26,6 +26,21 @@
   background-size: cover;
 }
 
+.TravelPackagesPayments.payments .content-container .image-content .house {
+  background: url(../img/image-japan-house-mobile.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.TravelPackagesPayments.payments .content-container .image-content .city {
+  background: url(../img/image-japan-city-mobile.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.TravelPackagesPayments.payments .content-container .image-content .hallway {
+  background: url(../img/image-japan-hallway-mobile.jpg) center no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .bag {
     background: url(../img/image-bag-tablet-desk.png) no-repeat center;
@@ -39,6 +54,21 @@
 
   .payments .content-container .image-content .people {
     background: url(../img/image-people-tablet-desk.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .TravelPackagesPayments.payments .content-container .image-content .house {
+    background: url(../img/image-japan-house-tablet-desk.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .TravelPackagesPayments.payments .content-container .image-content .city {
+    background: url(../img/image-japan-city-tablet-desk.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .TravelPackagesPayments.payments .content-container .image-content .hallway {
+    background: url(../img/image-japan-hallway-tablet-desk.jpg) center no-repeat;
     background-size: cover;
   }
 }

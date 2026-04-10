@@ -89,6 +89,12 @@ section.bottom-hero {
   margin: 16px 0 32px;
 }
 
+.content-super-title {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
