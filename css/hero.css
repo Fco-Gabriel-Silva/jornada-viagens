@@ -15,6 +15,22 @@
   background-position: center;
 }
 
+.TravelPackagesHero.hero {
+  margin-bottom: 88px;
+}
+
+.TravelPackagesHero .hero-img {
+  background: url(../img/bg-hero-destino-mobile.jpg) center no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.TravelPackagesHero .hero-content {
+  width: 312px;
+  padding-block: 65px;
+  margin-inline: auto;
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -22,6 +38,12 @@
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
+}
+.TravelPackagesHero .hero-content p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
