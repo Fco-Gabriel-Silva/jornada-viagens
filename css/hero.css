@@ -20,9 +20,14 @@
 }
 
 .TravelPackagesHero .hero-img {
-  background: url(../img/bg-hero-destino.jpg) center no-repeat;
+  background: url(../img/bg-hero-pacotes.jpg) center no-repeat;
   background-size: cover;
   height: 460px;
+}
+
+.TravelPackagesBottomHero.bottom-hero .hero-img {
+  background: url(../img/bg-bottom-hero-pacotes-mobile.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .TravelPackagesHero .hero-content {
@@ -62,9 +67,14 @@
   }
 
   .TravelPackagesHero .hero-img {
-    background: url(../img/bg-hero-destino.jpg) center no-repeat;
+    background: url(../img/bg-hero-pacotes.jpg) center no-repeat;
     background-size: cover;
     height: 620px;
+  }
+
+  .TravelPackagesBottomHero.bottom-hero .hero-img {
+    background: url(../img/bg-bottom-hero-pacotes-tablet.jpg) center no-repeat;
+    background-size: cover;
   }
 
   .TravelPackagesHero .hero-content {
@@ -98,7 +108,12 @@
   }
 
   .TravelPackagesHero .hero-img {
-    background: url(../img/bg-hero-destino.jpg) center no-repeat;
+    background: url(../img/bg-hero-pacotes.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .TravelPackagesBottomHero.bottom-hero .hero-img {
+    background: url(../img/bg-bottom-hero-pacotes-desktop.jpg) center no-repeat;
     background-size: cover;
   }
 
